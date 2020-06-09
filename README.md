@@ -24,7 +24,8 @@ in those circuits where overtaking is more difficult, in addition to having the 
 and on the normal racing line, which is usually cleaner and has more grip. The following graph shows the correlation between
 staring in pole position and winning the race in some of the most popular circuits.
 
-![](/Users/veronicanigro/Desktop/github/Formula_1/images/medium_3.png)
+![](images/medium_3.png)
+
 
 ### What's the impact of racing in your home country?
 
@@ -34,7 +35,8 @@ the drivers that ended up first on the podium during the years and their respect
 circuits races. Despite not showing a sharp difference, we can notice that even psychological factors play a role in the
 likelihood of winning a race.
 
-![](/Users/veronicanigro/Desktop/github/Formula_1/images/medium_4.png)
+![](images/medium_4.png)
+
 
 ### Most dangerous circuits
 
@@ -44,21 +46,24 @@ turns. However, some races are still held at street circuits, such as the Monaco
 for its fame and history, despite not conforming with the latest strict measures. The following tree-map shows some of the 
 most popular tracks by number of incidents or collisions.
 
-![](/Users/veronicanigro/Desktop/github/Formula_1/images/medium_5.png)
+![](images/medium_5.png)
+
 
 ### Which teams had more car failures?
 
 The bar chart shows which teams that raced in the last few seasons experienced the highest number of car problems over 
 the years, including engine failures, brakes, suspension or transmission problems.
 
-![](/Users/veronicanigro/Desktop/github/Formula_1/images/medium_6.png)
+![](images/medium_6.png)
+
 
 ### Who's more prone to crash?
 
 Cars in Formula 1 can reach top speeds of 375 km/h (233 mph) so crashes can ultimately terminate the race for the drivers. 
 The chart below shows the ratio of crashes of some of the drivers that raced in the last two seasons.
 
-![](/Users/veronicanigro/Desktop/github/Formula_1/images/medium_7.png)
+![](images/medium_7.png)
+
 
 ### From fast 40-year-olds to teenage stars
 
@@ -68,7 +73,8 @@ was around 32 years old and in the latest seasons there are only a few drivers a
 The following scatterplot shows the age of the winning drivers from the first inaugural season, 
 showing a downward sloping trend line.
 
-![](/Users/veronicanigro/Desktop/github/Formula_1/images/medium_8.png)
+![](images/medium_8.png)
+
 
 
 ## Machine Learning Modelling
@@ -118,7 +124,8 @@ The test set consists of all 21 races in the season of 2019.
 After taking a few days to run all the grid searches, classification with neural networks and SVM seem to return the highest
 scores, correctly predicting the winner for 62% of the races in 2019, which corresponds to 13/21 races.
 
-![](/Users/veronicanigro/Desktop/github/Formula_1/images/modelling.png)
+![](images/modelling.png)
+
 
 I also used season 2018 and 2017 as test sets to check whether the models would still perform well.  
 Neural Networks returned a score higher than SVM classifier in both years so I decided that NN classifier 
@@ -131,7 +138,8 @@ with the following parameters would be my pick.
 Considering **feature importance** according to linear regression, the grid position seem to play the most 
 important role in predicting the winner, along with other features such as teams or points prior to the race.
 
-![](/Users/veronicanigro/Desktop/github/Formula_1/images/variables.png)
+![](images/variables.png)
+
 
 Looking at the results from the past years, I noticed that the algorithm consistently mistakenly predicts the 
 winner for some circuits, probably because more accidents or overtakings take place. The hardest circuits to predict 
@@ -150,7 +158,7 @@ that the algorithm's predicted driver turned out to be correct, contrary to the 
 in red show that I should have probably have bet on the odds favourite. The last two columns show the odds reward and the
 profit that I would have made if I had consistently invested 100€ on each race, ending up with a profit of 4,255.00€.
 
-![](/Users/veronicanigro/Desktop/github/Formula_1/images/odds.png)
+![](images/odds.png)
 
 
 
