@@ -1,6 +1,6 @@
 # Formula 1 Race Predictor
 
-The purpose of this project is to build an algorithm to predict the winner in all 21 races of Formula 1 in season 2019.
+The purpose of this project is to build an algorithm to predict the winner in all 22 races of Formula 1 in season 2022.
 
 
 ## Data Collection
@@ -9,7 +9,7 @@ Files : `API_races`, `qualifying`, `weather`
 
 For my data mining I used two sources: the [Ergast F1](https://ergast.com/mrd/) data repository and the official 
 [Formula 1 website](https://www.formula1.com/), which contain information about all the championships and races from 
-1950 to 2019.
+1950 to 2022.
 Eventually I combined all the data about races, results, drivers and constructors standing positions, 
 qualifications and weather into a single dataframe.
 
@@ -124,8 +124,7 @@ The test set consists of all 21 races in the season of 2019.
 After taking a few days to run all the grid searches, classification with neural networks and SVM seem to return the highest
 scores, correctly predicting the winner for 62% of the races in 2019, which corresponds to 13/21 races.
 
-![](images/modelling.png)
-
+![](images/image (3).png)
 
 I also used season 2018 and 2017 as test sets to check whether the models would still perform well.  
 Neural Networks returned a score higher than SVM classifier in both years so I decided that NN classifier 
